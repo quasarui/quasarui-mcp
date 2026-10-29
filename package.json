@@ -24,7 +24,7 @@
   "homepage": "https://www.quasarui.com/documentation/mcp-server",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hafizjavaid/quasarui-mcp.git"
+    "url": "git+https://github.com/quasarui/quasarui-mcp.git"
   },
   "license": "MIT",
   "dependencies": {
