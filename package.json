@@ -1,0 +1,33 @@
+{
+  "name": "quasarui-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for QuasarUI: find Quasar (Vue) Components and paste their source from Claude Code, Claude Desktop or Cursor.",
+  "mcpName": "com.quasarui/mcp",
+  "type": "module",
+  "bin": {
+    "quasarui-mcp": "bin/quasarui-mcp.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "quasar",
+    "vue",
+    "components",
+    "ui"
+  ],
+  "homepage": "https://www.quasarui.com/documentation/mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafizjavaid/quasarui-mcp.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2"
+  }
+}

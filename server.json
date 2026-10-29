@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.quasarui/mcp",
+  "title": "QuasarUI",
+  "description": "Find Quasar Framework(Vue) UI Components and paste their source. Free Components need no key.",
+  "websiteUrl": "https://www.quasarui.com/documentation/mcp-server",
+  "repository": {
+    "url": "https://github.com/hafizjavaid/quasarui-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.quasarui.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer YOUR_ACCESS_KEY, for Paid Components. Leave out for Free Components.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "quasarui-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "QUASARUI_ACCESS_KEY",
+          "description": "Access Key from your QuasarUI dashboard, for Paid Components. Leave out for Free Components.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
