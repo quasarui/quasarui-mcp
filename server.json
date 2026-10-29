@@ -1,5 +1,5 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.quasarui/mcp",
   "title": "QuasarUI",
   "description": "Find Quasar Framework(Vue) UI Components and paste their source. Free Components need no key.",
