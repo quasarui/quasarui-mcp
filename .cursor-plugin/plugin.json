@@ -1,0 +1,14 @@
+{
+  "name": "quasarui",
+  "version": "1.0.0",
+  "description": "Find Quasar Framework (Vue) UI Components and paste their source. Free Components need no key.",
+  "author": {
+    "name": "QuasarUI",
+    "email": "hafiz@quasarui.com"
+  },
+  "homepage": "https://www.quasarui.com/documentation/mcp-server",
+  "repository": "https://github.com/quasarui/quasarui-mcp",
+  "license": "MIT",
+  "keywords": ["quasar", "vue", "ui-components", "frontend", "mcp"],
+  "logo": "assets/logo.svg"
+}
